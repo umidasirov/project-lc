@@ -1,0 +1,25 @@
+.pert-title{
+    height: 350px;
+}
+.partners{
+    margin-top: 50px;
+    display: flex;
+    align-items: center ;
+    height: 200px;
+}
+.partners h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--e-global-color-text);
+}
+.partners img{
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+}
+.partners .brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}

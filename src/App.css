@@ -1,0 +1,82 @@
+.pointer{
+  cursor: pointer;
+}
+.blue{
+  color: #098CE9;
+}
+.green{
+  color: #00FF00;
+}
+.container-all{
+  width: 75%;
+  margin: 0 auto;
+
+}
+.content-title{
+  width: 45%;
+}
+.content-title p{
+  font-size: 22px;
+    font-weight: 600;
+    color: var(--e-global-color-text);
+}
+.content-title h1{
+  font-size: 60px;
+}
+.main-title{
+  color: rgb(28,28,27);
+  height: 640px;
+}
+.main-title img{
+  width: 35%;
+}
+.main-title button{
+  width: 230px;
+  height: 50px;
+  margin-top: 25px;
+}
+.main-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priority{
+  height: 180px;
+  background-color: #F1F2F8;
+}
+.priority-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  height: 100%;
+}
+.explorer{
+  display: flex;
+  width: 28%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto  ;
+}
+.explorer button{
+  width: 80px;
+  border-radius: 30px;
+}
+.explorer span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.courses .items{
+  height: 500px;
+}
+.categories{
+  background-color: #fff;
+}
+.courses-categories{
+  height: 300px;
+}
+.courses-categories .container-all{
+  height: 100%;
+  background-color: #F1F2F8;
+  border-radius: 15px;
+  padding: 30px 10px;
+}
