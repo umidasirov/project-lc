@@ -7,6 +7,12 @@
 .green{
   color: #00FF00;
 }
+.yelow{
+  color:#EEB319;
+}
+.pink{
+  color:#AF52DE;
+}
 .container-all{
   width: 75%;
   margin: 0 auto;
@@ -79,4 +85,18 @@
   background-color: #F1F2F8;
   border-radius: 15px;
   padding: 30px 10px;
+}
+.our-package{
+  height: 700px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+.our-package .items{
+  margin-top: 70px;
+}
+.result{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
 }

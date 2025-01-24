@@ -1,0 +1,68 @@
+.premium-section{
+    width: 50%;
+}
+.premium-learning{
+    margin-top: 80px;
+    height: 830px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.premium-banner{
+    width: 45%;
+}
+.premium-banner img{
+    width: 100%;
+}
+.premium-section p{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Urbanist", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    color: #727272;
+}
+.premium-section h1{
+    color: #1C1C1B;
+    text-align: center;
+}
+.accordion-button{
+    height: 100%;
+    border-radius: none;
+}
+.accordion-button:hover{
+    background-color: #DFEFFF;
+}
+.accordion-item{
+    height: 100%;
+    border-left: none !important;
+    border-top: none !important;
+    border-radius: 0px;
+    border-right: none !important;
+}
+.accordion h2{
+    background-color: #CFE2FF !important;
+}
+.accordion-body{
+    background-color: #CFE2FF;
+}
+.accordion-header{
+    height: 100px;
+    border-radius: 0px;
+}
+.accordion-header .accordion-button{
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius:0 !important;
+}
+.accordion{
+    border-radius:10px ;
+}
+
+.accordion-item .accordion-header .accordion-button{
+    padding: 10px;
+    border-radius: 0px;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius:0 !important;
+}

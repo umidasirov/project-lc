@@ -1,0 +1,118 @@
+/* Общие стили для карточки */
+.card {
+  border: 1px solid #ddd; /* Граница карточки */
+  border-radius: 8px; /* Закругленные углы */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+  width: 100%; /* Ширина карточки */
+  max-width: 400px; /* Максимальная ширина карточки */
+  font-family: Arial, sans-serif; /* Шрифт */
+  height: 460px; /* Высота карточки */
+  margin: 0 auto; /* Центрирование карточки */
+}
+
+/* Стили для верхней части карточки (header) */
+.card-header img {
+  width: 100%; /* Ширина изображения на всю карточку */
+  height: 270px; /* Высота изображения */
+  border-radius: 10px; /* Закругленные углы */
+  border-bottom-left-radius: 0; /* Убираем закругление снизу слева */
+  border-bottom-right-radius: 0; /* Убираем закругление снизу справа */
+  object-fit: cover; /* Чтобы изображение заполняло контейнер */
+}
+
+.card-header {
+  border-bottom: none; /* Убираем нижнюю границу */
+}
+
+.card-header .author {
+  font-size: 16px; /* Размер шрифта автора */
+  margin: 8px 0; /* Отступы */
+  padding: 0 20px; /* Внутренние отступы */
+  color: #666; /* Цвет текста */
+}
+
+/* Стили для основной части карточки (body) */
+.card-body {
+  text-align: left; /* Выравнивание текста по левому краю */
+  padding: 10px 20px; /* Внутренние отступы */
+}
+
+.card-body p {
+  text-align: left; /* Выравнивание текста по левому краю */
+}
+
+.card-body .courses {
+  font-size: 14px; /* Размер шрифта для курсов */
+  color: #098CE9; /* Цвет текста */
+  margin: 8px 0; /* Отступы */
+}
+
+.card-body .description {
+  font-size: 16px; /* Размер шрифта для описания */
+  color: #444; /* Цвет текста */
+  margin: 8px 0; /* Отступы */
+}
+
+/* Стили для блока с ценами */
+.costs-of-courses {
+  margin-top: 20px; /* Отступ сверху */
+  display: flex;
+  gap: 10px; /* Расстояние между ценами */
+}
+
+.costs-of-courses .cost {
+  font-size: 18px;
+  color: #098CE9;
+  font-weight: bold;
+}
+
+.costs-of-courses .original-cost {
+  font-size: 16px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+/* Стили для слайдера */
+.slider {
+  height: auto; /* Автоматическая высота */
+  padding: 20px 0; /* Отступы сверху и снизу */
+}
+
+/* Стили для слайдов */
+.slick-slide {
+  width: 300px; /* Фиксированная ширина слайда */
+  margin: 0 10px; /* Отступы между слайдами */
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .card {
+    max-width: 350px; /* Уменьшаем ширину карточки для планшетов */
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%; /* Карточка занимает всю ширину на мобильных устройствах */
+    height: auto; /* Автоматическая высота */
+  }
+  .card-header img {
+    height: 200px; /* Уменьшаем высоту изображения */
+  }
+  .slick-slide {
+    width: 100%; /* Слайд занимает всю ширину */
+    margin: 0; /* Убираем отступы */
+  }
+}
+.cards-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.original-cost {
+  color:#E53030 !important;
+}
+.cost {
+  color: #098CE9;
+  font-weight: 600;
+}

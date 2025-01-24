@@ -1,0 +1,16 @@
+.counter{
+    width: 20%;
+    height: 140px;
+    border: 1px solid #E2E0DB;
+    text-align: center;
+    border-radius: 10px;
+}
+.counter h5{
+    margin-top: 20px;
+    font-size: 35px !important;
+    font-weight: 700 !important;
+}
+.counter p{
+    color: #1C1C1B;
+    font-weight: 700 !important;
+}
