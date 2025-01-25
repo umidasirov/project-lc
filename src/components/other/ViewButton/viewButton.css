@@ -1,0 +1,15 @@
+.view-button{
+    background-color: transparent;
+    width: 230px;
+    height: 40px;
+    color: #4C4C4C ;
+    border: 1px solid #4C4C4C ;
+    border-radius: 6px;
+}
+.view-button:hover{
+    background-color: #4C4C4C;
+    color: #fff;
+    border: 1px solid #4C4C4C;
+    cursor: pointer;
+    transition: 0.3s;
+}

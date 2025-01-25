@@ -14,6 +14,7 @@ import Category from "./components/CourseCategories/Category";
 import OurCardMain from "./components/OurPackageCards/OurCardMain";
 import PremiumLearning from "./components/PremiumLearning/PremiumLearning";
 import Results from "./components/Results/Results";
+import OurInstructor from "./components/Our-instructor/OurInstructor";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -263,6 +264,36 @@ function App() {
       color: "pink",
     },
   ];
+  const instructors = [
+    {
+      name:"Ambar Allison",
+      img:"https://eduma.thimpress.com/demo-online-learning/wp-content/uploads/sites/104/2024/10/co-instructor-03.jpg",
+      students:3,
+      course:1,
+      link:"/instructors/drake-taylor"
+    },
+    {
+      name:"Drake Taylor",
+      img:"https://eduma.thimpress.com/demo-online-learning/wp-content/uploads/sites/104/2024/10/co-instructor-06.jpg",
+      students:3,
+      course:1,
+      link:"/instructors/drake-taylor"
+    },
+    {
+      name:"Baldric Maris",
+      img:"https://eduma.thimpress.com/demo-online-learning/wp-content/uploads/sites/104/2024/10/co-instructor-02.jpg",
+      students:3,
+      course:1,
+      link:"/instructors/drake-taylor"
+    },
+    {
+      name:"Bernice Bernard",
+      img:"https://eduma.thimpress.com/demo-online-learning/wp-content/uploads/sites/104/2024/10/co-instructor-01.jpg",
+      students:44,
+      course:3,
+      link:"/instructors/drake-taylor"
+    },
+  ]
   return (
     <BrowserRouter>
       <Nav />
@@ -302,7 +333,8 @@ function App() {
           components={<Category data={categories} />}
         />
       </div>
-      <div className="our-package" data-aos="fade-up" data-aos-duration="3000">
+      <div className="our-package" data-aos="fade-up"
+     data-aos-duration="3000">
         <Titles
           title="OUR PACKAGE"
           titleOf="Explore top"
@@ -326,6 +358,10 @@ function App() {
             description={e.about}
           />
         ))}
+      </div>
+      <div className="our-instructor-title" data-aos="fade-up"
+     data-aos-duration="3000">
+        <Titles components={instructors.map((e)=>(<OurInstructor name={e.name} students={e.students} course={e.course} link={e.link} img={e.img}/>))} title='OUR INSTRUCTOR' titleOf="Professional" titleOfmore=" instructors"/>
       </div>
     </BrowserRouter>
   );

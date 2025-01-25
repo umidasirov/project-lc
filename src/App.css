@@ -13,6 +13,15 @@
 .pink{
   color:#AF52DE;
 }
+/* hover */
+.hover-blue{
+  transition: 0.5s;
+  cursor: pointer;
+}
+.hover-blue:hover{
+  color: #098CE9;
+  transition: 0.5s;
+}
 .container-all{
   width: 75%;
   margin: 0 auto;
@@ -95,8 +104,18 @@
   margin-top: 70px;
 }
 .result{
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 200px;
+}
+.our-instructor-title{
+  height: 700px;
+}
+.our-instructor-title .items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
