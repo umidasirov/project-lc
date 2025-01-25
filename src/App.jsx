@@ -359,10 +359,10 @@ function App() {
           />
         ))}
       </div>
-      <div className="our-instructor-title" data-aos="fade-up"
+      {/* <div className="our-instructor-title" data-aos="fade-up"
      data-aos-duration="3000">
         <Titles components={instructors.map((e)=>(<OurInstructor name={e.name} students={e.students} course={e.course} link={e.link} img={e.img}/>))} title='OUR INSTRUCTOR' titleOf="Professional" titleOfmore=" instructors"/>
-      </div>
+      </div> */}
     </BrowserRouter>
   );
 }
