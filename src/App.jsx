@@ -295,7 +295,7 @@ function App() {
     },
   ]
   return (
-    <BrowserRouter>
+    <div className="App">
       <Nav />
       <Contetn />
       <div className="priority">
@@ -363,7 +363,9 @@ function App() {
      data-aos-duration="3000">
         <Titles components={instructors.map((e)=>(<OurInstructor name={e.name} students={e.students} course={e.course} link={e.link} img={e.img}/>))} title='OUR INSTRUCTOR' titleOf="Professional" titleOfmore=" instructors"/>
       </div>
-    </BrowserRouter>
+      <div className="students-say">
+      </div>
+    </div>
   );
 }
 

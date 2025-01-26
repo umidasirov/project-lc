@@ -1,14 +1,17 @@
-.container{
-    width: 80%;
+.nav .container-all{
     margin: 0 auto; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 90px;
 }
+.nav ul{
+    margin-bottom: 0;
+}
 .nav{
     border-bottom: 1px solid #E2E0DB;
     z-index: 100;
+    width: 100%;
 }
 .nav-list{
     display: flex;

@@ -1,3 +1,7 @@
+.App{
+  position: fixed;
+  height: 100%;
+}
 .pointer{
   cursor: pointer;
 }
