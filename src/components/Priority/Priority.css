@@ -24,19 +24,3 @@
     width: 40px !important;
     height: 40px !important;   
 }
-.priority-elements:nth-child(2)::before{
-    content: "";
-    width: 2px;
-    height: 60%;
-    background-color: #E5E5E5;
-    position: absolute;
-    right: 0;
-}
-.priority-elements:nth-child(1)::before{
-    content: "";
-    width: 2px;
-    height: 60%;
-    background-color: #E5E5E5;
-    position: absolute;
-    right: 0;
-}
