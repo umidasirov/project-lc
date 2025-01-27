@@ -1,4 +1,4 @@
-import Button from "../other/Button";
+import Button from "../../other/Button";
 import "./Partners.css";
 export default function Title(props) {
   return (

@@ -1,5 +1,7 @@
-.App{
-  height: 100%;
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Убедитесь, что высота всегда равна высоте экрана */
 }
 .pointer{
   cursor: pointer;
@@ -121,4 +123,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.pages {
+  flex-grow: 1; /* Контент растягивается, чтобы занять доступное пространство */
+}
+
+.footer {
+  margin-top: auto; /* Футер будет располагаться внизу */
 }

@@ -1,4 +1,4 @@
-import ViewButton from "../other/ViewButton/ViewButton"
+import ViewButton from "../../other/ViewButton/ViewButton"
 import "./OurInstructor.css"
 export default function OurInstructor(props) {
   return (

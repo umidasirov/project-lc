@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../other/Button'
+import Button from '../../other/Button'
 import { Link } from 'react-router-dom'
 export default function Contetn() {
   return (
