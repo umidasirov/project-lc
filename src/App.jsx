@@ -7,6 +7,7 @@ import OurInstructor from "./components/homepage-components/Our-instructor/OurIn
 import base from "./API/state";
 import HomePage from "./components/Pages/HomePage";
 import { Routes,Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -22,9 +23,7 @@ function App() {
           <Route path="/" element={<HomePage base={base}/>} />
         </Routes>
       </div>
-      <footer className="container">
-        the end
-      </footer>
+      <Footer />
     </div>
   );
 }
