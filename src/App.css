@@ -132,3 +132,59 @@
 .footer {
   margin-top: auto;
 }
+.login{
+  text-align: center;
+  margin-top: auto 0;
+}
+.login-container{
+  width: 900px;
+  height: 100%;
+  margin-top: 100px;
+}
+.login-container .login-item{
+  width: 100%;
+  box-shadow: #0A6DE9 1px 1px 15px 0px;
+  height: 500px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form{
+  width: 50%;
+  padding: 20px 60px;
+}
+.form{
+  text-align: center;
+}
+.form button{
+  margin-top: 10px;
+}
+.banner{
+  cursor: default;
+  text-align: center;
+  width: 50%;
+  background-color: #376BFB;
+  height: 100%;
+  width: 45%;
+    height: 100%;
+    background-color: #376BFB;
+    border-radius: 150px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.banner h2{
+  font-weight: 700;
+  font-size: 40px;
+}
+.banner p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.banner a{
+  color: #fff;
+  font-weight: bolder;
+}

@@ -1,3 +1,6 @@
+import { Links } from "react-router-dom"
+import HomePage from "../components/Pages/HomePage"
+
 const base = {
     priorityData: [{
           iconPriority: (
@@ -267,6 +270,32 @@ const base = {
           course:3,
           link:"/instructors/drake-taylor"
         },
+    ],
+    Links:[
+      {
+        title:"About Us",
+        link:"/about-us"
+      },
+      {
+        title:"About Us",
+        link:"/about-us"
+      },
+      {
+        title:"About Us",
+        link:"/about-us"
+      },
+      {
+        title:"About Us",
+        link:"/about-us"
+      },
+      {
+        title:"About Us",
+        link:"/about-us"
+      },
+      {
+        title:"About Us",
+        link:"/about-us"
+      },
     ]
 }
 export default base

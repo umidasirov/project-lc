@@ -1,13 +1,13 @@
-import { useEffect } from "react";
+import { Component, useEffect } from "react";
 import "./App.css";
 import Nav from "./components/Nav/Nav";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import OurInstructor from "./components/homepage-components/Our-instructor/OurInstructor";
 import base from "./API/state";
 import HomePage from "./components/Pages/HomePage";
 import { Routes,Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
+import Login from "./components/Pages/Login";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -19,8 +19,11 @@ function App() {
     <div className="App">
       <Nav /> 
       <div className="pages">
-        <Routes className='content-all'>
-          <Route path="/" element={<HomePage base={base}/>} />
+        <Routes>
+          <Route path="/" element={<HomePage base={base} />} />
+          <Route path="/courses" element={"s"} />
+          <Route path="/login" element={<Login />} />
+          <Route path="*" element="page not faund" />
         </Routes>
       </div>
       <Footer />
